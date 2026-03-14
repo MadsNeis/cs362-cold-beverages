@@ -17,7 +17,7 @@ class WaterReservoir
   end
 
   def drain(volume)
-    self.current_water_volume -= volume
+    self.current_water_volume = [current_water_volume - volume, 0].max
   end
 
 end
