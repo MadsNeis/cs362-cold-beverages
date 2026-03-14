@@ -13,7 +13,7 @@ describe 'A vessel for holding liquid' do
     expect(vessel).to be_empty
   end
 
-  it 'is no longer empty when we fill it' do
+  it 'is no longer empty when its fill it' do
     vessel = Vessel.new('FAKE', 100)
     vessel.fill
     expect(vessel).to_not be_empty
