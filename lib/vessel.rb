@@ -11,4 +11,8 @@ class Vessel
     !@filled
   end
 
+  def fill
+    @filled = true
+  end
+
 end
